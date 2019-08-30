@@ -22,16 +22,17 @@
     width: 100%;
     z-index: -2;
     position: absolute;
+    height: 728px;
 }
 
 .link {
     float: right;
     z-index: 1;
     position: relative;
+    padding-right: 5px;
     right: 20px;
     margin-left: 10px;
-    
-    
+    border-right: 2px solid grey
 
 }
 
@@ -40,7 +41,7 @@
     background: white;
     padding: 10px;
     width: 960px;
-    text-align: center;
+    text-align: left;
     z-index: 1;
     margin-left: 15%;
     margin-right: 15%;
@@ -50,7 +51,10 @@
     border-style: solid;
     
 }
+.abouttext {
+    margin-left: 5px;
 
+}
 #face {
     width: 50%;
     float: left;
@@ -62,8 +66,12 @@
 }
 
 #footer {
-    padding: 20px;
+    padding: 10px;
     position: relative;
-    background-color:grey;
+    margin-top: 20px;
+    text-align: center;
+    background-color: lightgrey;
     z-index: -1;
+    border-bottom: 2px solid blue;  
+    
 }
