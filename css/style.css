@@ -53,7 +53,7 @@
     
 }
 .abouttext {
-    position: relative
+    position: relative;
     margin-left: 10px;
     padding-left: 10px;
     background: white;
@@ -103,17 +103,31 @@
 }
 
 .portfolioimg {
-    width: 25%;
+    width: 100%;
 }
 
 .portfoliocaption {
     color: white;
     background-color: grey;
-    padding: 10px;
+    padding: 5% 0;
     top: -20px;
-    width: 200px;
+    width: 100%;
     text-align: center;
     position: relative;
-    
+}
+.fig {
+    display: inline-block;
+    width: 200px;
+
 }
 
+.container{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+#message {
+    height: 200px;
+    width: 700px;
+}
