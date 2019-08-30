@@ -52,12 +52,17 @@
     
 }
 .abouttext {
-    margin-left: 5px;
+    position: relative
+    margin-left: 10px;
+    padding-left: 10px;
+    background:white;
 
 }
 #face {
     width: 50%;
+    position: relative;
     float: left;
+    padding-right: 10px;
 }
 
 #closer {
@@ -66,12 +71,15 @@
 }
 
 #footer {
-    padding: 10px;
-    position: relative;
-    margin-top: 20px;
+    padding-top: 18px;
+    padding-bottom: 0px;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    margin-top: 25px;
     text-align: center;
     background-color: lightgrey;
     z-index: -1;
-    border-bottom: 2px solid blue;  
+    border-top: 3px solid black;  
     
 }
