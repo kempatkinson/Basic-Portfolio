@@ -78,6 +78,7 @@
     position: relative;
     float: left;
     padding-right: 10px;
+    z-index: 3;
 }
 
 #closer {
