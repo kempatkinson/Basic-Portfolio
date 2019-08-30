@@ -101,3 +101,19 @@
     
     
 }
+
+.portfolioimg {
+    width: 25%;
+}
+
+.portfoliocaption {
+    color: white;
+    background-color: grey;
+    padding: 10px;
+    top: -20px;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    
+}
+
