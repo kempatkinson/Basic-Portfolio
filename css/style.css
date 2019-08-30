@@ -1,7 +1,69 @@
 #header {
+    background: white;
+    border-color: grey;
+    border-width: 2px;
+    border-style: solid;
+    padding: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: -1;
+}
+
+#name {
     background: lightgrey;
-    padding: 1px;
-    font-size: 16px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding-left: 100px;
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    margin-left: 200px;
+    padding: 4px;
+    top: -16px;
+}
+
+#background {
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+}
+
+.link {
+    float: right;
+    z-index: 1;
+    position: relative;
+    right: 20px;
+    margin-left: 10px;
+    
+    
+
+}
+
+
+#about {
+    background: white;
+    padding: 10px;
+    width: 960px;
+    text-align: center;
+    z-index: 1;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1%;
+    border-color: grey;
+    border-width: 2px;
+    border-style: solid;
+    
+}
+
+#face {
+    width: 50%;
+    float: left;
+}
+
+#closer {
+    color: white;
+
+}
+
+#footer {
+    padding: 20px;
+    position: relative;
+    background-color:grey;
+    z-index: -1;
 }
