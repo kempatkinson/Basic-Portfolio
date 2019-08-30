@@ -40,13 +40,13 @@
 
 #about {
     background: white;
-    padding: 10px;
+    padding: 30px;
     width: 960px;
     text-align: left;
     z-index: 1;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 1%;
+    margin-top: 2.5%;
     border-color: grey;
     border-width: 2px;
     border-style: solid;
@@ -89,7 +89,7 @@
 #footer {
     padding-top: 18px;
     padding-bottom: 18px;
-    bottom: -100px;
+    bottom: -200px;
     width: 100%;
     position: absolute;
     width: 100%;
