@@ -73,6 +73,7 @@
 
 
 }
+
 #face {
     width: 50%;
     position: relative;
@@ -99,8 +100,6 @@
     background-color: lightgrey;
     z-index: -1;
     border-top: 3px solid grey;  
-    
-    
 }
 
 .portfolioimg {
