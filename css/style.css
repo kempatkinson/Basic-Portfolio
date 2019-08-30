@@ -88,8 +88,9 @@
 
 #footer {
     padding-top: 18px;
-    padding-bottom: 0px;
-    bottom: 0px;
+    padding-bottom: 18px;
+    bottom: -100px;
+    width: 100%;
     position: absolute;
     width: 100%;
     margin-top: 25px;
